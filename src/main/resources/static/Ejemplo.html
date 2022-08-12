@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>    
+
+        <title>TOP 5</title>
+        <link rel="stylesheet" href="css/restaurantes.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+
+
+    </head>  
+
+    <body>
+        <div class='container2'>
+
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Principal</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="Disable.html">Discos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="Disable.html">Conciertos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="showcase">
+                <div class="container">
+                    <h1>Top 5 Artistas más escuchados Costa Rica</h1>                         
+                </div>        
+
+
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="card-title">Bad Bunny</h5>
+                            <p class="card-text">Rapero, cantante, compositor y actor puertorriqueño</p>
+                            <a href="https://youtu.be/7K7Sl0FPsVo" class="btn btn-primary">Youtube</a>
+                        </div>
+                        <img src="images/Bad Bunny.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Karol G.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Karol G</h5>
+                            <p>Cantante y compositora colombiana.</p>
+                            <a href="https://youtu.be/ca48oMV59LU" class="btn btn-primary">Youtube</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Rosalia.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Rosalía</h5>
+                            <p>Catante, compositora, productora y actriz española.</p>
+                            <a href="https://youtu.be/5g2hT4GmAGU" class="btn btn-primary">Youtube</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Feid.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Feid</h5>
+                            <p>Rapero, cantante y compositor colombiano. Conocido también como Ferxxo.</p>
+                            <a href="https://youtu.be/0xz5wdKFjM4" class="btn btn-primary">Youtube</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/Bizarrap.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Bizarrap</h5>
+                            <p>Compositor y productor discográfico argentino.</p>
+                            <a href=https://youtu.be/A_g3lMcWVy0" class="btn btn-primary">Youtube</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                        </div>
+                <br>
+                <br>
+            <div class="showcase">
+                <div class="container">
+                    <h1>Top 5 Canciones más escuchadas Costa Rica</h1>                         
+                </div>        
+
+            </div> 
+            <table class="table table-dark">
+                <thead class="table-striped"> 
+                <tr>
+                    <th scope="col">Canción </th>
+                    <th scope="col">Artista </th>
+                    <th scope="col">Reproducciones </th>
+                    <th scope="col">Posición </th>
+                </tr>
+            </thead>
+                <tbody>
+                    <tr>
+                        <th scope="col">1 </th>
+                        <th scope="col">Quevedo: Bzrp Music Sessions, Vol.52 </th>
+                        <th scope="col">Bizarrap, Quevedo </th>
+                        <th scope="col">73,746 </th>
+                    </tr>
+                    <tr>
+                        <th scope="col">2 </th>
+                        <th scope="col">Tití Me Preguntó</th>
+                        <th scope="col">Bad Bunny, Chencho Corleoney</th>
+                        <th scope="col">55,837</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">3 </th>
+                        <th scope="col">Me Poryo Bonito</th>
+                        <th scope="col">Bad Bunny, Chencho Corleoney</th>
+                        <th scope="col">52,150</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">4 </th>
+                        <th scope="col">La Bachata</th>
+                        <th scope="col">Manuel Turizo</th>
+                        <th scope="col">51,083</th>
+                    </tr>
+                    <tr>
+                        <th scope="col">5 </th>
+                        <th scope="col">Ojitos Lindos</th>
+                        <th scope="col">Bad Bunny, Bomba Estéreo</th>
+                        <th scope="col">45,583</th>
+                    </tr>
+                </tbody>
+            </table>
+                <footer class="bg-dark text-white fixed-bottom">
+                    <div>
+                        <p>Datos Obtenidos de Spotify, Top 50: Costa Rica.</p>
+                        <p>Copyright Ejemplo &copy; 2022</p>
+                        
+                        <!-- Lo que se obtiene es el URL actual en el Current Request, y en ese va a reemplazar el parámmetro del query -->
+                        <a th:with="urlBuilder=${T(org.springframework.web.servlet.support.ServletUriComponentsBuilder).fromCurrentRequest()}"
+                           th:href="${urlBuilder.replaceQueryParam('lang','es').toUriString()}">ES</a>
+                        <a th:with="urlBuilder=${T(org.springframework.web.servlet.support.ServletUriComponentsBuilder).fromCurrentRequest()}"
+                           th:href="${urlBuilder.replaceQueryParam('lang','en').toUriString()}">EN</a>
+                    </div>  
+                </footer>
+    </body>
+</html>
